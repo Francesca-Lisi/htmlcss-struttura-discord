@@ -10,24 +10,26 @@
   min-height: 50px;      /******DEBUG******/
 }
 
-header .row{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .container{
   max-width: 950px;
   width: 70%;
   margin: 0 auto;
 }
 
+/*************HEADER**************/
+
+header .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero{
   max-width: 500px;
   width: 65%;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
-}
+  }
 
 .hero .buttons ul{
   display: flex;
@@ -41,3 +43,30 @@ header .row{
   border: 1px solid black;
   margin: 0 15px;
 }
+
+
+
+/***************** FOOTER ********************/
+footer .row{
+  display: flex;
+}
+
+footer .contatti{
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+footer .end{
+  justify-content: space-between;
+}
+
+footer .contatti .col{
+  width: calc((100% - 190px) / 4);
+  text-align: center;
+}
+
+footer .row .col:first-child{
+  width: 190px;
+  text-align: left;
+}
+
