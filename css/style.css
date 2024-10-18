@@ -3,3 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.debug{
+  background-color: rgba(7, 126, 173, 0.4);
+  border: 1px solid black;
+  min-height: 50px;      /******DEBUG******/
+}
+
+header .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container{
+  max-width: 950px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.hero{
+  max-width: 500px;
+  width: 65%;
+  margin: 0 auto;;
+}
