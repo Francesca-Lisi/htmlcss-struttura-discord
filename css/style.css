@@ -44,7 +44,24 @@ header .row{
   margin: 0 15px;
 }
 
+/********************MAIN*********************/
+.pic{
+  width: 60%;
+}
 
+.txt{
+  width: 40%;
+}
+
+#invito .row, #trovarsi .row, #fandom .row{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+#trovarsi .row .pic{
+  order: 1;
+}
 
 /***************** FOOTER ********************/
 footer .row{
