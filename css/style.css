@@ -63,7 +63,23 @@ header .row{
   order: 1;
 }
 
+#invito,#fandom{
+  background-color: white;
+}
+
+#trovarsi,#tecnologia{
+  background-color: #F6F6F6;
+}
+
+#tecnologia .container{
+  text-align: center;
+}
 /***************** FOOTER ********************/
+footer{
+  background-color: #23272A;
+  color: white;
+}
+
 footer .row{
   display: flex;
 }
