@@ -121,7 +121,8 @@ footer .contatti .col{
 }
 
 footer .row .col:first-child{
-  width: 190px;
+  min-width: 190px;
+  width: 25%;
   text-align: left;
 }
 
