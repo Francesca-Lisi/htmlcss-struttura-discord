@@ -115,13 +115,13 @@ footer .end{
 }
 
 footer .contatti .col{
-  min-width: calc((100% - 190px) / 4);
+  min-width: calc(75% / 4);
   text-align: center;
 
 }
 
 footer .row .col:first-child{
-  min-width: 190px;
+  min-width: 170px;
   width: 25%;
   text-align: left;
 }
